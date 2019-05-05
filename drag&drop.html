@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/drag&drop.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="eL.html">Mirror, mirrior</a>
+        <a href="powers.html">Powers</a>
+        <a href="cards.html">Cards</a>
+        <a href="scrolly.html">Scrolly</a>
+    </nav>
+    <header class="target currentStage"></header>
+
+    <article class="target originStage">
+        <section class="stage stage--design" draggable="true">Design</section>
+        <section class="stage stage--develop" draggable="true">Develop</section>
+        <section class="stage stage--test" draggable="true">Test</section>
+        <section class="stage stage--release" draggable="true">Release</section>
+    </article>
+
+    <footer class="target finishedStage"></footer>
+    <footer class="home-page"><a href="index.html">Home</a></footer>
+    <script src="scripts/drag&drop.js"></script>
+</body>
+</html>

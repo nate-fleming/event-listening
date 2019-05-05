@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-flow: row 
+}
+
+#copy1 {
+    border: 1px solid lightblue;
+    flex-basis: 50%;
+}
+
+#copy2 {
+    border: 1px solid orangered;
+    flex-basis: 50%;
+}
